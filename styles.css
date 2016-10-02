@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, "Helvetica";
+  font-size: 24px;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  border: 2px dotted #999;
+  border-radius: 5px;
+}
+
+.label {
+  position: absolute;
+  font-size: 12px;
+  top: -6px;
+  left: 14px;
+  line-height: 12px;
+  color: #999;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.host {
+  padding: 20px;
+}
+
+.webviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  height: 180px;
+  width: 200px;
+}
+
+.box:not(:last-child) {
+  margin-right: 20px;
+}
+
+webview {
+  height: 100%;
+}
+
+input[type=text] {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+  width: 100%;
+}
+
+p.sample {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}

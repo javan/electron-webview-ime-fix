@@ -1,0 +1,14 @@
+{
+  "name": "electron-webview-ime-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Javan Makhmali",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.2"
+  }
+}
