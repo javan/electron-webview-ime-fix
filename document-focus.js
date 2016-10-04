@@ -3,8 +3,7 @@ exports.releaseDocumentFocus = function () {
   document.body.appendChild(element)
 
   const range = document.createRange()
-  range.startContainer = element
-  range.startOffset = 0
+  range.setStart(element, 0)
 
   const selection = window.getSelection()
   selection.removeAllRanges()
